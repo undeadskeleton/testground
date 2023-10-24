@@ -1,1 +1,16 @@
+.container{
+    max-width:30rem;
+    max-height:30rem;
+    display:flex;
+    
+   
+}
 
+.container div{
+    width:3rem;
+    height:3rem;
+}
+
+.one{
+    background-color: blueviolet;
+}
