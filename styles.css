@@ -1,16 +1,39 @@
 .container{
-    max-width:30rem;
-    max-height:30rem;
     display:flex;
-    
-   
+    max-width:25rem;
+    flex-wrap:wrap;
+    margin:auto auto;
 }
 
 .container div{
-    width:3rem;
-    height:3rem;
+    height:7rem;
+    width:7rem;
+    display:inherit;
+    justify-content:center;
+    align-items: center;
 }
 
 .one{
-    background-color: blueviolet;
+    background-color: #A89F34;
 }
+
+.two{
+    background-color:#4732C8;
+}
+
+.three{
+    background-color: #CC6B1C;
+}
+
+.four{
+    background-color:#CC1C71;
+}
+
+.five{
+    background-color:#1DCC1C;
+}
+
+.six{
+    background-clip: #1CA8CC;
+}
+
