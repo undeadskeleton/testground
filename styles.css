@@ -1,39 +1,119 @@
-.container{
-    display:flex;
-    max-width:25rem;
-    flex-wrap:wrap;
-    margin:auto auto;
+body{
+    background-color: #B6E6D7;
 }
 
-.container div{
-    height:7rem;
-    width:7rem;
-    display:inherit;
-    justify-content:center;
-    align-items: center;
+.face{
+    background-color:blue;
+    height:600px;
+    width:600px;
+    position:absolute;
+    top:500px;
+    left:300px;
+    right:0;
+    bottom:0;
+    border-radius:46%;
 }
 
-.one{
-    background-color: #A89F34;
+.left-ear{
+    border-right:200px solid transparent;
+    border-left:200px solid transparent;
+    border-bottom:260px solid blue;
+    position: absolute;
+    z-index:1;
+    border-top-left-radius:1000px;
+    border-top-right-radius:600px;
+    border-bottom-left-radius:50px;
+    transform:rotate(40deg);
+    left:333px;
+    top:-100px;
 }
 
-.two{
-    background-color:#4732C8;
+.left-inner-ear{
+    border-right:170px solid transparent;
+    border-left:170px solid transparent;
+    border-bottom:200px solid #141E8C; 
+    position:absolute;
+    left:-170px;
+    top:60px;
 }
 
-.three{
-    background-color: #CC6B1C;
+.right-ear{
+    border-right:200px solid transparent;
+    border-left:200px solid transparent;
+    border-bottom:260px solid blue;
+    position: absolute;
+    z-index:1;
+    border-top-left-radius:1000px;
+    border-top-right-radius:600px;
+    border-bottom-left-radius:50px;
+    transform:rotate(-40deg);
+    right:333px;
+    top:-100px;
 }
 
-.four{
-    background-color:#CC1C71;
+.right-inner-ear{
+    border-right:170px solid transparent;
+    border-left:170px solid transparent;
+    border-bottom:200px solid #141E8C; 
+    position:absolute;
+    right:-170px;
+    top:60px;
+    
 }
 
-.five{
-    background-color:#1DCC1C;
+.right-eye{
+    width:89px;
+    height:130px;
+    background-color: red;
+    border-radius:46%;
+    position: absolute ;
+    top:170px;
+    right:111px;
+    transform: rotate(-23deg);
+    
 }
 
-.six{
-    background-clip: #1CA8CC;
+.right-inner-eye{
+    width:32px;
+    height:50px;
+    background: white;
+    border-radius: 45%;
+    position: absolute ;
+    top:23px;
+    right:47px;
+}
+
+.left-eye{
+    width:89px;
+    height:130px;
+    background-color: red;
+    border-radius:46%;
+    position: absolute ;
+    top:170px;
+    left:111px;
+    transform: rotate(23deg);
+}
+
+.left-inner-eye{
+    width:32px;
+    height:50px;
+    background: white;
+    border-radius: 45%;
+    position: absolute;
+    top:23px;
+    left:47px;
+}
+
+.nose{
+    height:153px;
+    width:134px;
+    background-color: #212443;
+    border-radius: 46%;
+    position: absolute ;
+    top:231px;
+    left:0;
+    right:0;
+    margin:auto;
+    transform: rotate(90deg);
 }
 
