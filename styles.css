@@ -3,7 +3,7 @@ body{
 }
 
 .face{
-    background-color:blue;
+    background-color :#F3DC9D;
     height:600px;
     width:600px;
     position:absolute;
@@ -12,12 +12,13 @@ body{
     right:0;
     bottom:0;
     border-radius:46%;
+    
 }
 
 .left-ear{
     border-right:200px solid transparent;
     border-left:200px solid transparent;
-    border-bottom:260px solid blue;
+    border-bottom:260px solid #F3DC9D;
     position: absolute;
     z-index:1;
     border-top-left-radius:1000px;
@@ -31,7 +32,7 @@ body{
 .left-inner-ear{
     border-right:170px solid transparent;
     border-left:170px solid transparent;
-    border-bottom:200px solid #141E8C; 
+    border-bottom:200px solid #BCAC82; 
     position:absolute;
     left:-170px;
     top:60px;
@@ -40,7 +41,7 @@ body{
 .right-ear{
     border-right:200px solid transparent;
     border-left:200px solid transparent;
-    border-bottom:260px solid blue;
+    border-bottom:260px solid #F3DC9D;
     position: absolute;
     z-index:1;
     border-top-left-radius:1000px;
@@ -54,11 +55,10 @@ body{
 .right-inner-ear{
     border-right:170px solid transparent;
     border-left:170px solid transparent;
-    border-bottom:200px solid #141E8C; 
+    border-bottom:200px solid #BCAC82; 
     position:absolute;
     right:-170px;
     top:60px;
-    
 }
 
 .right-eye{
@@ -81,6 +81,7 @@ body{
     position: absolute ;
     top:23px;
     right:47px;
+ 
 }
 
 .left-eye{
@@ -92,6 +93,7 @@ body{
     top:170px;
     left:111px;
     transform: rotate(23deg);
+    
 }
 
 .left-inner-eye{
@@ -102,11 +104,37 @@ body{
     position: absolute;
     top:23px;
     left:47px;
+  
+}
+
+
+.right-mouth{
+    width:120px;
+    height:100px;
+    border:3px solid black;
+    border-radius:190px 150px 0 0;
+    border-color:black black transparent black;
+    position: absolute ;
+    top:365px;
+    right:178px;
+    transform: rotate(180deg);
+}
+
+.left-mouth{
+    width:120px;
+    height:100px;
+    border:3px solid black;
+    border-radius:190px 150px 0 0;
+    border-color:black black transparent black;
+    position: absolute ;
+    top:365px;
+    left:178px;
+    transform: rotate(180deg);
 }
 
 .nose{
-    height:153px;
-    width:134px;
+    height:134px;
+    width:153px;
     background-color: #212443;
     border-radius: 46%;
     position: absolute ;
@@ -114,6 +142,12 @@ body{
     left:0;
     right:0;
     margin:auto;
-    transform: rotate(90deg);
 }
 
+
+
+.whisker{
+    border-left:20px solid transparent;
+    border-right:20px solid transparent;
+    border-bottom:20px solid black;
+}
