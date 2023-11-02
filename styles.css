@@ -146,8 +146,23 @@ body{
 
 
 
-.whisker{
-    border-left:20px solid transparent;
-    border-right:20px solid transparent;
-    border-bottom:20px solid black;
+.whisker-left div{
+    width:200px;
+    height:1px;
+    border-radius:100%/100px 150px 0 0 ;
+    border-color:black transparent transparent transparent;
+}
+
+.whisker-right div{
+    width:200px;
+    height:1px;
+    border-radius:100%/100px 150px 0 0 ;
+    border-color:black transparent transparent transparent;
+}
+
+.whisker-left-top{
+    position: absolute ;
+    top:230px;
+    left:89px;
+    
 }
