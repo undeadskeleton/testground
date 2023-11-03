@@ -148,21 +148,56 @@ body{
 
 .whisker-left div{
     width:200px;
-    height:1px;
+    height:90px;
+    border:3px solid black;
     border-radius:100%/100px 150px 0 0 ;
     border-color:black transparent transparent transparent;
 }
 
 .whisker-right div{
     width:200px;
-    height:1px;
-    border-radius:100%/100px 150px 0 0 ;
+    height:90px;
+    border:3px solid black;
+    border-radius:190%/190px 150px 0 0 ;
     border-color:black transparent transparent transparent;
 }
 
-.whisker-left-top{
+.whisker-top-left{
     position: absolute ;
     top:230px;
     left:89px;
-    
+}
+
+.whisker-middle-left{
+    position:absolute;
+    top:290px;
+    left:70px;
+    transform:rotate(-23deg)
+}
+
+.whisker-buttom-left{
+    position: absolute;
+    top: 335px;
+    left:70px;
+    transform:rotate(-27deg);
+}
+
+.whisker-top-right{
+    position: absolute ;
+    top:230px;
+    right:89px;
+}
+
+.whisker-middle-right{
+    position:absolute;
+    top:290px;
+    right:70px;
+    transform:rotate(23deg)
+}
+ 
+.whisker-buttom-right{
+    position: absolute;
+    top: 335px;
+    right:70px;
+    transform:rotate(27deg);
 }
