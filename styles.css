@@ -3,7 +3,7 @@
     margin:0;
     box-sizing: border-box;
 }
-
+/*Header Styling*/
 #header-img{
     width:max(100px,10vw);
 }
@@ -13,7 +13,8 @@ header{
     display:grid;
    grid-template: 100%/ 1fr 0.5fr 1fr;
    align-items:center;
-   background-color:antiquewhite;
+   background-color:#ecebe6;
+   position:fixed;
 
 }
 
@@ -39,6 +40,11 @@ nav{
     list-style: none;
 }
 
+/*Main Styling*/
+
+main{
+    background-color: #ecebe6;
+}
 .history{
     grid-area: 1/1/1/2;
 }
@@ -78,5 +84,54 @@ nav{
 
 .how-to{
 display:grid;
+
+}
+
+#price > div{
+border:3px solid black;
+}
+
+#price{
+    display:grid;
+    grid-template: 1fr/ repeat(3,2fr);
+    grid-gap:3rem;
+    text-align:center;
+}
+
+.prices h1{
+    padding:1em 0 0.5em 0;
+    background-color:#e77f7f;
+}
+
+.amount{
+    font-size: 2rem;
+    font-style:oblique;
+}
+
+.prices p:not(.amount){
+    margin: 1em 0 0 0;
+}
+
+/*Footer Styling */
+footer{
+    background-color:#b1756d;
+    margin-top: 3rem;
+    text-align:right;   
+    padding:1rem;
+    
+}
+
+footer *{
+    padding:0.5rem 0 0 0.5rem;
+}
+
+footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+    font-size: 1.3em;
+}
+footer a{
+    text-decoration: none;
 
 }
