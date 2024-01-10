@@ -3,6 +3,9 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    font-size:20px;
+}
 /*Header Styling*/
 #header-img{
     width:max(100px,10vw);
@@ -85,34 +88,26 @@ body{
     height:90px;
 }
 
-.how-to.text{
-    display:grid;
-    grid-template: repeat(6,2fr)/0.5fr repeat(2,2fr);
+.how-to{
+   display:flex;
+   flex-direction: column;
+   justify-content:end;
+   align-items: center;
+   margin:1rem 6rem;
 }
 
-.icon1{
-grid-area:1/1/3/2;
-}
-
-.icon2{ grid-area:3/1/3/2;}
-
-.icon3{ grid-area:5/1/7/2;}
-
-.icon1,.icon2,.icon3{
+.sec{
     display:flex;
-    justify-content: center;
-    align-items: center;
-}
-.how-to-header1{
-    grid-area: 1/2/3/4;
 }
 
-.how-to-header2{ grid-area:3/2/5/4;}
-.how-to-header3{ grid-area:5/2/7/4;}
+.sec *{
+    margin:1em 2rem;
+}
 
-.description1{ grid-area:2/2/3/3; }
-.description2{ grid-area: 4/2/5/3; }
-.description3{ grid-area: 6/2/7/3;}
+.sec div p{
+    display: flex;
+    flex-wrap:wrap
+}
 
 /*Pricing Styling*/
 #price > div{
